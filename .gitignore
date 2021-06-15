@@ -1,0 +1,4 @@
+data/
+AppCred.py
+__pycache__/
+.vscode/
