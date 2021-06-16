@@ -1,32 +1,33 @@
 # Opposition to wind turbines
 By Alexander Jorge, Kajsa Rosenblad, Snorre Moltzau and Espen Rostrup
 
-Character count: 60,852 character count
+Character count: 60,852 characters.  
 We think that the readability is best when using GitHub, so we encourage the user to read the paper at [www.github.com/EspenRostrup/AntiWindTurbineDiscourse/](https://github.com/EspenRostrup/AntiWindTurbineDiscourse/).
 
 ### Table of contents
+Name indicates responsibility. As a note to the examinators we believe that the effort was equally distributed between group members.
 
-1. [Introduction (Digital Methods)](#introduction) - Collective
-1.1 [Data ethical considerations](#data-ethics) - Collective
-2. [Netnography (Digital Methods)](#netnography) - Espen
-2.1 [Account of practices](#account-of-practice) - Kajsa
-2.2 [Discussion](#22) - Snorre
+1. [Introduction (Digital Methods)](#introduction) - Collective  
+1.1 [Data ethical considerations](#data-ethics) - Collective  
+2. [Netnography (Digital Methods)](#netnography) - Espen  
+2.1 [Account of practices](#account-of-practice) - Kajsa  
+2.2 [Discussion](#22) - Snorre  
 3. [Network (Digital Methods)](#network) - Alexander  
-3.1 [Selecting the seeds](#31) - Espen
-3.2 [Analysis of the network from the snowball sampling](#32) - Kajsa  
-3.3 [Discussion](#33) - Snorre
-4. [Collection and preprocessing of tweets (Digital Methods and ASDSII)](#data-collection) - Alexander
-4.1 [Description of final tweet sample](#final-sample) - Espen
-5. [Content Analysis: Manual coding and semantic networks (Digital Methods)](#content-analysis) - Kajsa  
-6. [Topic modelling (ASDSII)](#topic-modelling) - Snorre
-6.1 [hSBM implementation](#hsbm) - Alexander
-6.2 [LDA implementation](#lda) - Espen
-6.3 [Discussion](#asds-discussion) - Kajsa
-7. [Methodological reflections (Digital Methods)](#reflections) - Collective 
-7.1 [Summing up: Mapping out anti-wind turbine resistance online](#summing-up) - Collective  
-7.2 [Methodological reflections](#reflections) - Collective
-
-[Sources](#conclusion)  
+3.1 [Selecting the seeds](#31) - Espen  
+3.2 [Analysis of the network from the snowball sampling](#32) - Kajsa    
+3.3 [Discussion](#33) - Snorre  
+4. [Collection and preprocessing of tweets (Digital Methods and ASDSII)](#data-collection) - Alexander  
+4.1 [Description of final tweet sample](#final-sample) - Espen  
+5. [Content Analysis: Manual coding and semantic networks (Digital Methods)](#content-analysis) - Kajsa    
+6. [Topic modelling (ASDSII)](#topic-modelling) - Snorre  
+6.1 [hSBM implementation](#hsbm) - Alexander  
+6.2 [LDA implementation](#lda) - Espen  
+6.3 [Discussion](#asds-discussion) - Kajsa  
+7. [Methodological reflections (Digital Methods)](#reflections) - Collective   
+7.1 [Summing up: Mapping out anti-wind turbine resistance online](#summing-up) - Collective    
+7.2 [Methodological reflections](#reflections) - Collective  
+  
+[Sources](#sources)  
 [Notes](#notes)  
 [Appendix](#appendix)  
 
@@ -135,6 +136,7 @@ The onset of this snowball sampling approach is the seed(s). We collated our net
 | Scotland  | Wind\_Energy's\_Absurd       | 401       | 1,604     |
 | US        | Barbara Durkin               | 4,061     | 5,225     |
 | Ireland   | Gweebarra Conservation Group | 2,810     | 1,516     |  
+
 _Source: [Appendix 4b](#appendix-4)_
 
 We found that an iterative approach to map out the network would be beneficial; starting with one seed and expanding with other seeds after evaluating the resulting network by exploring parts of the twitter users in the network. We decided to use the National Wind Watch as a preliminary seed since the organisation had appeared frequently in our initial netnography and appeared to have a geographical spread of users that the profile followed (see figure 4). We quickly found that all the seeds listed in [Table 1](#table1) were included in the resulting network, which, due to its size and apparent diversity, was deemed to be fit for our analysis.
@@ -336,7 +338,8 @@ The hSBM model returned 289 topics. For each word-group on the first level in th
 | 13    | planning, application, refused, permission, granted, windfarm\_planning, laois, planning\_application, grant, actonfacts | Planning /refusal  of plan   |
 | 14    | bird, bat, killing, killed, population, slaughter, bird\_bat, extinction, mortality, collision                           | Wildlife                     |
 | 15    | eagle, kill, specie, endangered, golden, nest, raptor, threatened, bald, endangered\_specie                              | Wildlife                     |  
-_Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
+
+ _Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
 
 The hSBM-U model on the other hand, returned 558 topics. We repeated the process of investigating the topics from the first level of the hierarchy, and manually sifted through the remaining 77 topics. 15 particularly poignant topics are displayed in [Table 3](#table3).
 
@@ -360,7 +363,8 @@ The hSBM-U model on the other hand, returned 558 topics. We repeated the process
 | 13    | politician, listen, community\_group, exist, subsidise, m, turbine\_group, danish, commitment, enough\_wind                                             | Community resistance         |
 | 14    | windfarm\_planning, actonfacts, output\_low, ireland\_windfarm, windfails, mystery, wind\_output, planning\_actonfacts, ancillary, development\_donegal | Efficiency                   |
 | 15    | ge, group\_ge, twip, ge\_twip, delivering, group\_call, save\_wind, politician\_save, call\_politician, turbine\_delivering                             | Industry (GE in particular)  |  
-_Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
+
+ _Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
 
 The analysis of the hSBM models has three main conclusions. First of all, many of the topics we reflected on being absent in our manual coding of tweets and the semantic network turned out to form distinct topics in the hSBM output. Notable examples are the topics that clearly cluster around human health concerns and aesthetic concerns. In fact, this topic added an additional nuance to the aesthetic concern argument that we had not noticed before - namely the relation to tourism. Second, and this is based on our experience of sifting through the topics, the hSBM model was easier to interpret than the hSBM-U topics. This is interesting because a critique that is often leveled against topic models is that they function worse on short text data. Lastly, both models returned a lot of noise and low-quality topics (Mimno et al., 2011). 
 
@@ -425,7 +429,8 @@ We proceeded to select 15 topics that were still analytically interesting.
 | 13    | making, wind, profit, hot, reject, difference, nimby, impact\_industrial, bullshit, signalling                    | Industry/nimby            |
 | 14    | developer, evidence, court, wind\_developer, might, fair, supreme, supreme\_court, voting, ignoring               | Legal                     |
 | 15    | action, low, frequency ,low\_frequency, monday, april, frequency\_noise, draft, annual, session                   | Noise pollution           |  
-_Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
+
+ _Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
 
 
 To briefly summarise the findings of the LDA model, after manually (and quite laboriously) filtering through the 300 topics, the qualitatively most interpretable and analytically useful topics that emerged from the data concerned noise pollution and to some extent, wildlife. However, most of these 15 topics still contain a lot of noise. For example, the third topic included the names “Tom” and “Laurie”, which we find hard to account for. Judging the performance of an LDA based on the coherence values might not be the best way to go, since these 300 topics might on some statistical level be coherent - to the human eye, they are not. 
@@ -473,7 +478,8 @@ The final set of 15 topics that emerged from the fine-tuned LDA-U model as well 
 | 13    | checked, automatically, followed, person, one\_person, unfollowed, donegal, ireland, wildlife, bog                 | Spam/Ireland       |
 | 14    | policy, fossil, fuel, emission, scotland, electricity, climate, impact, still, money                               | Emissions/Scotland |
 | 15    | ge, group\_ge, twip, ge\_twip, community\_group, politician, delivering, group\_call, save\_wind, politician\_save | Community          |  
-_Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
+
+ _Source: Topics in [Appendix 6](#appendix-6). Code in [Appendix 1g](#appendix-1)_
 
 The topics from the LDA-U were qualitatively more difficult to interpret than the topics from the LDA model - but there were also only 15 of them, while the LDA model had 300 topics out of which 15 were somewhat interpretable. In the end, the only themes we could confidently assign to the LDA-U topics had to do with geographical location. The topics were unbalanced (see for example topic 14 that has the words “thats” “yet” and “still” in them, and random (see for example topic 8). It also strikes us as peculiar that the best coherence value was found at 15 topics, when the hSBM-U model generated more than 500 topics for the same data set. 
 
@@ -539,6 +545,7 @@ To summarise, the methods (just like the platforms we analysed) have different a
 One hindrance that this study must acknowledge that it experiences is that of the classic anthropological _meaning problem_, eloquently postulated by Malinowski (1922). Lingering still through reiteration and rediscovery, scholars such as Munk (2019) very much keeps the awareness of the problem alive when he considers its implications in modern academia in his paper on quali-quantitative analysis. The meaning problem does share resemblance to issues widely discussed in other fields such as the symbol grounding problem from cognitive science that we describe as _“the issue with trying to learn Danish from merely a Danish-to-Danish lexicon”_. Furthermore, Munk discusses mixed methods approaches to at least address this issue within our report. Our study incorporates what Munk has dubbed a _complementary_ style of mixing the methods, drawing from each, the strengths of the respective analyses. 
 
 <a id="sources"></a>
+ 
 ## Sources
 
 Airoldi, M. (2018). Ethnography and the digital fields of social media. _International Journal Of Social Research Methodology_, _21_(6), 661-673. doi: 10.1080/13645579.2018.1465622
